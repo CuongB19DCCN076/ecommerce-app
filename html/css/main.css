@@ -1,0 +1,74 @@
+@import url(components/button.css);
+@import url(components/button.css);
+@import url(components/input.css);
+@import url(components/toast.css);
+@import url(components/label.css);
+@import url(components/table.css);
+@import url(components/paging.css);
+@import url(components/dialog.css);
+@import url(components/combobox.css);
+@import url(components/option.css);
+@import url(components/loading.css);
+@import url(page/employee.css);
+@import url(../Resource/font/fontawesome-5.15.1/css/all.min.css);
+@import url(../Resource/font/fontawesome-5.15.1/js/all.min.js);
+body {
+    font-family: GoogleSands;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: GoogleSands;
+    src: url("../Resource/font/GoogleSans-Regular.otf");
+}
+@font-face {
+    font-family: GoogleSands;
+    font-weight: bold;
+    src: url("../Resource/font/GoogleSans-Bold.otf");
+}
+@font-face {
+    font-family: GoogleSands;
+    font-style: italic;
+    src: url("../Resource/font/GoogleSans-Italic.otf");
+}
+
+.m-row{
+    width: 100%;
+    margin: 4px;
+}
+.m-icon-24{
+    width: 24px;
+    height: 24px;
+}
+
+.menu-icon-dashboard{
+    background-image: url(../Resource/icon/dashboard.png);
+}
+
+.menu-icon-report{
+    background-image: url(../Resource/icon/report.png);
+}
+
+.menu-icon-employee{
+    background-image: url(../Resource/icon/dic-employee.png);
+}
+
+.menu-icon-setting{
+    background-image: url(../Resource/icon/setting.png);
+}
+
+.toolbar-icon-refesh{
+    background-image: url(../Resource/icon/refresh.png);
+}
+.test1{
+    height: 10000px;
+}
+.test{
+    height: calc(100% - 56px);
+    overflow: auto;
+}
+
+.test2{
+    height: 100px;
+    overflow: scroll;
+}
